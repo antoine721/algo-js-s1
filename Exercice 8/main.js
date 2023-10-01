@@ -19,7 +19,7 @@ class Pokemon {
             pokemon.hp -= this.attack + (pokemon.coupcritique()) - pokemon.defense
             console.log(`${pokemon.name} à réussi son attaque`)
         } else {
-            console.log(`${pokemon.name} à raté son attaque, oh le nul`)
+            console.log(`${pokemon.name} à raté son attaque`)
         }
     }
     coupcritique(){
